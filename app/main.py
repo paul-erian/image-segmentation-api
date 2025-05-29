@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
-from model import predict_class
+from app.model import predict_class
 import uuid
 from fastapi.staticfiles import StaticFiles
 
