@@ -3,8 +3,8 @@
 ## docker
 
 ```shell
-docker build -t <image> . # create image
-docker run -it -v ${PWD}/app:/app -w /app -p 8000:80 <image> bash # create a container
+docker build -t image-segmentation-api . # create image
+docker run -it -v ${PWD}/app:/app -w /app -p 8000:80 image-segmentation-api bash # create a container
 docker exec -it <container> /bin/bash # connect to container
 ```
 
